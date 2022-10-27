@@ -70,7 +70,7 @@ p {
     line-height: 40px;
 }
 
-.header.active .navbar-nav > li > a {
+.header.active .navbar-nav>li>a {
     font-size: 13px;
     text-transform: uppercase;
     text-shadow: none;
@@ -86,7 +86,7 @@ p {
 }
 
 .navbar-inverse .navbar-brand,
-.navbar-inverse .navbar-nav > li > a {
+.navbar-inverse .navbar-nav>li>a {
     text-shadow: none;
     font-weight: 500;
 }
@@ -118,7 +118,7 @@ p {
 }
 
 #main-nav {
-    background-color: transparent;
+    background-color: #273935;
     background-image: none !important;
 }
 
@@ -128,7 +128,7 @@ p {
 
 .navbar-inverse {
     background-image: none;
-    background-color: transparent;
+    background-color: #273935;
 }
 
 .header .navbar {
@@ -162,6 +162,11 @@ p {
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
+}
+
+.color-nav {
+    background-color: rgb(159, 54, 54);
+
 }
 
 #about {
@@ -223,7 +228,7 @@ a:hover {
 }
 
 #what-we-do {
-    background-image: url(../img/covid-19.xb28fa88aMD.png);
+    background-image: url(../img/diseaseworld.jpeg);
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -349,8 +354,7 @@ footer ul li a:hover {
 }
 
 body:after {
-    content: url(../img/close.png) url(../img/loading.gif) url(../img/prev.png)
-        url(../img/next.png);
+    content: url(../img/close.png) url(../img/loading.gif) url(../img/prev.png) url(../img/next.png);
     display: none;
 }
 
@@ -388,21 +392,21 @@ body:after {
         background-color: #2e3848;
     }
 
-    .navbar-nav > li {
+    .navbar-nav>li {
         margin-left: 0;
         border-bottom: 1px solid #eee;
     }
 
-    .navbar-nav > li:last-child {
+    .navbar-nav>li:last-child {
         border-bottom: none;
     }
 
-    .navbar-nav > li > a {
+    .navbar-nav>li>a {
         line-height: 50px;
         color: #121212 !important;
     }
 
-    .header.active.navbar-nav > li > a {
+    .header.active.navbar-nav>li>a {
         color: #121212 !important;
     }
 }

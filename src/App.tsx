@@ -34,8 +34,6 @@ function App() {
               <Route path='surveillance_circuit/WNV' element={<WNV />} />
 
               <Route path='surveillance_circuit/results' element={<Results />} />
-              <Route path='surveillance_circuit/clinical' element={<ClinicalInterest />} />
-              <Route path='surveillance_circuit/news' element={<News />} />
               <Route path='surveillance_circuit/contact' element={<Contact />} />
 
               <Route path='*' element={<WhatWeDo />}></Route>

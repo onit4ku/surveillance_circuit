@@ -8,10 +8,9 @@ export default function Contact() {
           <div className="col-md-12">
             <div className="section-heading">
               <br />
-              <br />   <hr style={{ height:"15px"}} />
-              <TranslatedText textKey="contact_title"/>
-              <hr style={{ height:"5px"}} />
-              
+              <br /> <hr style={{ height: "15px" }} />
+              <TranslatedText textKey="contact_title" />
+              <hr style={{ height: "5px" }} />
             </div>
           </div>
         </div>
@@ -32,21 +31,21 @@ export default function Contact() {
             <div className="row">
               <div className="contacto">
                 <p>
-                  <a href="https://www.clinbioinfosspa.es/">Clinical Bioinformatics Area</a>,{" "}
+                  <a href="https://www.clinbioinfosspa.es/">Andalusian Platform for Computational Medicine</a>,<br />
                   <a href="https://www.sspa.juntadeandalucia.es/fundacionprogresoysalud/">Fundación Progreso y Salud</a>.
                 </p>
                 <p>
                   Edificio C.D.C.A.. Hospital Universitario Virgen del Rocío <br />
                   Avenida Manuel Siurot s/n,
-                <br />
-                41013 Sevilla, España
-                <br />
-                <br />
-                <br />
-                Email:{" "}
-                <a style={{ color: "#97B4CF" }} href="mailto:clinbioinfoarea@gmail.com">
-                  clinbioinfoarea@gmail.com
-                </a>
+                  <br />
+                  41013 Sevilla, España
+                  <br />
+                  <br />
+                  <br />
+                  Email:{" "}
+                  <a style={{ color: "#97B4CF" }} href="mailto:clinbioinfoarea@gmail.com">
+                    clinbioinfoarea@gmail.com
+                  </a>
                 </p>
               </div>
             </div>

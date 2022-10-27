@@ -1,7 +1,10 @@
-
 import TranslatedText from "../i18n";
 import circuitImg1 from "../img/image1.png";
 import diagramFigure from "../img/sarscov2_workflow_diagram.png";
+
+import circuitImg2 from "../img/figuras.pptx.svg";
+import phylogeny from "../img/phylogeny.png";
+import geography from "../img/geography.png";
 
 function About() {
   return (
@@ -10,29 +13,31 @@ function About() {
         <div className="row">
           <div className="col-md-12">
             <div className="section-heading">
-              <br /><br /><br /><br />
+              <br />
+              <br />
+              <br />
+              <br />
               <hr style={{ height: "15px" }} />
               <TranslatedText textKey="about_text_title" />
               <hr style={{ height: "5px" }} />
-              <br /><br />
             </div>
           </div>
         </div>
+
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <img src={circuitImg1} className="img-responsive center-block" alt="sequencing circuit" />
-              <br /><br />
+              <img src={circuitImg2} className="img-responsive center-block" alt="sequencing circuit" />
+              <br />
+              <br />
               <TranslatedText textKey="about_text_fig1" />
-              <br /><br />
+              <br />
+              <br />
               <TranslatedText textKey="about_text_1" />
               <br />
-              <img src={diagramFigure} className="img-responsive center-block" alt="sequencing circuit" />
-              <br />
-              <TranslatedText textKey="about_text_fig2" />
               <br />
               <div className="table-responsive">
-                <table className="table table-bordered table-striped table-hover" style={{ textAlign: 'center' }}>
+                <table className="table table-bordered table-striped table-hover" style={{ textAlign: "center" }}>
                   <tbody>
                     <tr>
                       <td colSpan={1} rowSpan={1}>
@@ -66,7 +71,6 @@ function About() {
                       <td colSpan={1} rowSpan={1}>
                         <p>H.U. San Cecilio</p>
                       </td>
-
                     </tr>
                     <tr>
                       <td colSpan={1} rowSpan={1}>
@@ -78,7 +82,6 @@ function About() {
                       <td colSpan={1} rowSpan={1}>
                         <p>H.U. San Cecilio</p>
                       </td>
-
                     </tr>
                     <tr>
                       <td colSpan={1} rowSpan={1}>
@@ -90,7 +93,6 @@ function About() {
                       <td colSpan={1} rowSpan={1}>
                         <p>H.U. San Cecilio</p>
                       </td>
-
                     </tr>
                     <tr>
                       <td colSpan={1} rowSpan={1}>
@@ -102,7 +104,6 @@ function About() {
                       <td colSpan={1} rowSpan={1}>
                         <p>H.U. Virgen del Rocío</p>
                       </td>
-
                     </tr>
                     <tr>
                       <td colSpan={1} rowSpan={1}>
@@ -114,7 +115,6 @@ function About() {
                       <td colSpan={1} rowSpan={1}>
                         <p>H.U. Virgen del Rocío</p>
                       </td>
-
                     </tr>
                     <tr>
                       <td colSpan={1} rowSpan={1}>
@@ -126,7 +126,6 @@ function About() {
                       <td colSpan={1} rowSpan={1}>
                         <p>H.U. Virgen del Rocío</p>
                       </td>
-
                     </tr>
                     <tr>
                       <td colSpan={1} rowSpan={1}>
@@ -138,7 +137,6 @@ function About() {
                       <td colSpan={1} rowSpan={1}>
                         <p>H.U. Virgen del Rocío</p>
                       </td>
-
                     </tr>
                   </tbody>
                 </table>
@@ -151,8 +149,7 @@ function About() {
         </div>
       </div>
     </div>
-
-  )
+  );
 }
 
-export default About
+export default About;

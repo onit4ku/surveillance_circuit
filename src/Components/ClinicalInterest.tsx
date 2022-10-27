@@ -12,7 +12,7 @@ function ClinicalInterest() {
               <br />
               <br />
               <br />
-              <br />   <hr style={{ height: "15px" }} />
+              <br /> <hr style={{ height: "15px" }} />
               <TranslatedText textKey="clinicalInterest_text_title" />
               <hr style={{ height: "5px" }} />
               <br />

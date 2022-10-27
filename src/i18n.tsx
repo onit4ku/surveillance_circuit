@@ -12,13 +12,13 @@ const translations = {
     "menuLink-news": "News",
     "menuLink-contact": "Contact",
     "whatwedo_title":
-      <h4>Whole genome sequencing surveillance circuit of Andalusia</h4>
+      <h4>Antecedents</h4>
     ,
     "whatwedo_txt":
       <p style={{ textAlign: 'justify', fontSize: 18 }}>As response to a recommendation for the integration of genome sequencing in the SARS-CoV-2 surveillance published by the Public Health Commission of the Interterritorial council in <a href="https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Integracion_de_la_secuenciacion_genomica-en_la_vigilancia_del_SARS-CoV-2.pdf">22 January 2021</a>, a joint instruction was carried out, 1/2020 from the General Secretariat for Research, Development and Innovation in Health and the Management Directorate of the Andalusian Health Service, for the Management of samples in the approach to Personalized Medicine in COVID-19.<br /><br />A previous project funded by the Andalusian Health System (<a target="_blank" rel="noreferrer" href="https://clinbioinfosspa.es/projects/covseq/indexEng.html">Sequencing of the SARS-CoV-2 virus genome for the monitoring and management of the Covid-19 epidemic in Andalusia and the rapid generation of prognostic and response to treatment biomarkers</a>)  that included the 16 main tertiary hospitals in Andalusia, along with three research centers with genome sequencing facilities (IBIS, Genyo and CABIMER) and the Bioinformatics Area of the Progress and Health Foundation, set the ground for a rapid implementation of a regional-scale systematic sequencing of the virus. This project constitutes a remarkable example of translational research.</p>
     ,
     "about_text_title":
-      <h4>SARS-CoV-2 whole genome sequencing circuit</h4>
+      <h4>The Whole Genome Sequencing Surveillance Circuit of Andalusia</h4>
     ,
     "about_text_1":
       <p style={{ textAlign: 'justify', fontSize: 18 }}>The operation of the circuit is as follows: samples are collected at the main tertiary hospitals from the eight Andalusian provinces and sent to the two reference sequencing hospitals, the San Cecilio Clinical Hospital for Eastern Andalusia, and Virgen del Rocio University Hospital for Western Andalusia (Figure 1 and Table 1). There, the samples are processed and the genetic material (viral RNA or DNA, depending in the virus) is extracted and subjected to Whole Genome Sequencing. The raw sequencing data are transferred to the <a target="_blank" rel="noreferrer" href="https://www.clinbioinfosspa.es/ ">Bioinformatics Area</a>, where they are processed to obtain whole genome sequence data. These data are indexed along with the meta-data provided by the Andalusian Epidemiological Surveillance System (SVEA), previously collected from the hospitals. The resulting findings (strain, lineage, VOIs and VOCs, etc.) are reported back to the sampling hospitals, for supporting clinical decision, and relevant epidemiological information is reported to the SVEA. <br /><br />
@@ -32,10 +32,14 @@ const translations = {
       Finally, the Bioinformatic Area is responsible for the submission of the viral genomic sequences to <a target="_blank" rel="noreferrer" href="https://www.ebi.ac.uk/ena/browser/home">European nucleotide Archive (ENA)</a>  to make them available to the scientific community. </p>
     ,
     "about_text_fig1":
-      <p style={{ textAlign: 'center', fontSize: 16 }}><b>Figure 1.</b> <i>Clinical circuit for WGS of SARS-CoV-2 for epidemiologic surveillance and medical decision support</i></p>
+      <p style={{ textAlign: 'center', fontSize: 16 }}><b>Figure 1.</b> <i>Whole Genome Sequencing Surveillance Circuit of Andalusia for epidemiologic surveillance and clinical decision support</i></p>
     ,
     "about_text_fig2":
       <p style={{ textAlign: 'center', fontSize: 16 }}><b>Figure 2. </b> <i>Bioinformatic workflow for SARS-CoV-2 data</ i> </p>
+    ,
+
+    "about_text_title3":
+    <h4>Viruses under genomic surveillance</h4>
     ,
 
     "WNV_text_title":
@@ -155,10 +159,14 @@ const translations = {
       <br /> <br />En ella se almacena toda la información clínica de todos los pacientes del Sistema Andaluz de Salud. El Área de Bioinformática remite todos los genomas virales a la BPS, donde se almacenan permanentemente, vinculados a la información clínica de los pacientes. BPS dispone de un procedimiento para solicitar los datos para su uso secundario en la <a target="_blank" rel="noreferrer" href="https://www.sspa.juntadeandalucia.es/servicioandaluzdesalud/sites/default/files/sincfiles/wsas-media-mediafile_sasdocumento/2019/BPS_Investigaci%C3%B3n.pdf "> investigación clínica </a>. Por último, el Área de Bioinformática es responsable del envío de las secuencias genómicas virales al European Nucleotide Archive (ENA)1 para ponerlas a disposición de la comunidad científica.</p>
     ,
     "about_text_fig1":
-      <p style={{ textAlign: 'center', fontSize: 16 }}><b>Figura 1. </b> <i> Circuito clínico para WGS de SARS-CoV-2 para vigilancia epidemiológica y apoyo a decisiones médicas </ i> </p>
+      <p style={{ textAlign: 'center', fontSize: 16 }}><b>Figura 1. </b> <i> Circuito de Vigilancia por Secuenciación del Genoma Completo de Andalucía para la vigilancia epidemiológica y el apoyo a la decisión clínica </ i> </p>
     ,
     "about_text_fig2":
       <p style={{ textAlign: 'center', fontSize: 16 }}><b>Figura 2. </b> <i>Flujo de trabajo bioinformático para datos de SARS-CoV-2</ i> </p>
+    ,
+
+    "about_text_title3":
+    <h4>Virus incluidos en la vigilancia genómica</h4>
     ,
 
     "WNV_text_title":
